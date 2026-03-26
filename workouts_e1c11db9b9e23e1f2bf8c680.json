@@ -1,0 +1,57 @@
+[
+  {
+    "date": "2026-03-24",
+    "laps": 30,
+    "pool_length": 25,
+    "unit": "yards",
+    "stroke": "Backstroke",
+    "weight_kg": 61.23492,
+    "distance": 750,
+    "calories": 62.8,
+    "time_hours": 0.1465384615384615
+  },
+  {
+    "date": "2026-01-02",
+    "laps": 10,
+    "pool_length": 25,
+    "unit": "yards",
+    "stroke": "Freestyle",
+    "weight_kg": 61.23492,
+    "distance": 250,
+    "calories": 20.7,
+    "time_hours": 0.042333333333333334
+  },
+  {
+    "date": "2026-01-02",
+    "laps": 100,
+    "pool_length": 50,
+    "unit": "meters",
+    "stroke": "Breaststroke",
+    "weight_kg": 61.23492,
+    "distance": 5000,
+    "calories": 425.2,
+    "time_hours": 1.1574074074074074
+  },
+  {
+    "date": "2023-01-07",
+    "laps": 10,
+    "pool_length": 50,
+    "unit": "meters",
+    "stroke": "Breaststroke",
+    "weight_kg": 61.23492,
+    "distance": 500,
+    "calories": 42.5,
+    "time_hours": 0.11574074074074074
+  },
+  {
+    "date": "2023-01-07",
+    "laps": 10,
+    "pool_length": 50,
+    "unit": "meters",
+    "stroke": "Breaststroke",
+    "weight_kg": 61.23492,
+    "distance": 500,
+    "calories": 42.5,
+    "time_hours": 0.11574074074074074
+  }
+]

@@ -1,19 +1,35 @@
-# 🎈 Blank app template
+# Swimming Distance and Calorie Tracker
 
-A simple Streamlit app template for you to modify!
+## Run locally
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+1. Install the requirements.
 
-### How to run it on your own machine
-
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
    ```
 
-2. Run the app
+2. Start the app.
 
+   ```bash
+   streamlit run streamlit_app.py
    ```
-   $ streamlit run streamlit_app.py
-   ```
+
+## Authentication flow
+
+When a user creates an account, they must set:
+
+- A password
+- A special 4-digit PIN for MFA
+
+On sign-in, the app now asks for:
+
+- Username
+- Password
+- The special 4-digit PIN
+
+Security notes:
+
+- Username must be 3-32 characters and may contain only letters, numbers, and underscores.
+- After repeated failed sign-in attempts, the app temporarily locks sign-in for that username.
+
+Existing users without a saved PIN will be prompted to create one the next time they sign in successfully.
